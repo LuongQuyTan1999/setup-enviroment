@@ -1,0 +1,15 @@
+.form-control:focus {
+  box-shadow: none;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.form-control, .input-group-text, .btn {
+  border-radius: 0;
+}
+
+.was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
+  box-shadow: none;
+}

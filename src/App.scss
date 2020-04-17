@@ -1,0 +1,43 @@
+* {
+  margin: 0 ;
+  padding: 0 ;
+}
+
+body {
+  background-color: #f6f9fa !important;
+  font-size: 16px !important;
+  color: #4a4a4a !important;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #4a4a4a !important;
+}
+
+#root {
+  height: 100%;
+}
+
+
+.w100, .tablet-md {
+  width: 100%;
+  height: 100%;
+}
+
+// Align ------------------------------------
+.text-center {
+  text-align: center;
+}
+
+.text-align-center {
+  text-align: center
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
